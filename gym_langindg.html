@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerFit - Gimnasio Premium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    .hero { background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600') center/cover no-repeat; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- Hero -->
+  <section class="hero min-h-screen flex items-center">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-6xl md:text-7xl font-bold mb-6">TRANSFORMA TU CUERPO</h1>
+      <p class="text-3xl md:text-4xl text-yellow-400 font-semibold mb-8">En el gimnasio más completo de la ciudad</p>
+      <p class="text-xl max-w-2xl mx-auto mb-12">Entrenamientos de alta intensidad, coaches personales y resultados reales. ¿Estás listo?</p>
+      
+      <div class="flex flex-col sm:flex-row gap-5 justify-center">
+        <a href="#planes" class="bg-yellow-400 text-black px-10 py-5 rounded-2xl text-xl font-bold hover:bg-yellow-300 transition">
+          VER PLANES
+        </a>
+        <a href="#contacto" class="border-2 border-white px-10 py-5 rounded-2xl text-xl font-bold hover:bg-white hover:text-black transition">
+          PRUEBA GRATIS
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="py-20 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">¿Por qué PowerFit?</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="text-center">
+          <div class="text-6xl mb-6">🏋️</div>
+          <h3 class="text-2xl font-semibold mb-3">Entrenamiento Profesional</h3>
+          <p class="text-zinc-400">Clases grupales y entrenamiento personalizado con coaches certificados.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl mb-6">🥗</div>
+          <h3 class="text-2xl font-semibold mb-3">Nutrición</h3>
+          <p class="text-zinc-400">Planes alimenticios personalizados y seguimiento semanal.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl mb-6">📈</div>
+          <h3 class="text-2xl font-semibold mb-3">Resultados Garantizados</h3>
+          <p class="text-zinc-400">Transformación visible en 90 días o te devolvemos tu dinero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes -->
+  <section id="planes" class="py-20 bg-black">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Elige tu Plan</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <h3 class="text-2xl font-bold mb-2">Básico</h3>
+          <p class="text-5xl font-bold mb-8">$49<span class="text-lg font-normal text-zinc-400">/mes</span></p>
+          <ul class="space-y-4 mb-10">
+            <li>✓ Acceso al gimnasio</li>
+            <li>✓ Clases grupales</li>
+            <li>✓ App de seguimiento</li>
+          </ul>
+          <button class="w-full py-4 border border-zinc-700 rounded-2xl font-semibold hover:bg-zinc-800">Elegir Básico</button>
+        </div>
+
+        <div class="bg-yellow-400 text-black p-8 rounded-3xl scale-105 shadow-2xl">
+          <div class="text-center mb-6">
+            <span class="bg-black text-yellow-400 px-4 py-1 rounded-full text-sm">MÁS POPULAR</span>
+          </div>
+          <h3 class="text-3xl font-bold mb-2">Premium</h3>
+          <p class="text-6xl font-bold mb-8">$89<span class="text-xl font-normal">/mes</span></p>
+          <ul class="space-y-4 mb-10">
+            <li>✓ Todo del Básico</li>
+            <li>✓ Coach personal 2x semana</li>
+            <li>✓ Plan nutricional</li>
+            <li>✓ Acceso 24/7</li>
+          </ul>
+          <button class="w-full py-4 bg-black text-white rounded-2xl font-semibold">Elegir Premium</button>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-3xl">
+          <h3 class="text-2xl font-bold mb-2">Elite</h3>
+          <p class="text-5xl font-bold mb-8">$149<span class="text-lg font-normal text-zinc-400">/mes</span></p>
+          <ul class="space-y-4 mb-10">
+            <li>✓ Todo del Premium</li>
+            <li>✓ Coach personal ilimitado</li>
+            <li>✓ Sesiones de fisioterapia</li>
+            <li>✓ Acceso VIP</li>
+          </ul>
+          <button class="w-full py-4 border border-zinc-700 rounded-2xl font-semibold hover:bg-zinc-800">Elegir Elite</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="py-20 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-12">Lo que dicen nuestros miembros</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-zinc-800 p-8 rounded-3xl">
+          <p class="italic mb-6">"Perdí 12kg en 3 meses. El mejor gimnasio al que he ido."</p>
+          <p class="font-semibold">- Carlos Mendoza</p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl">
+          <p class="italic mb-6">"Los coaches son increíbles y los resultados se ven desde la primera semana."</p>
+          <p class="font-semibold">- Laura Vargas</p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl">
+          <p class="italic mb-6">"Ambiente motivador y equipamiento de primera."</p>
+          <p class="font-semibold">- Miguel Torres</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section id="contacto" class="py-24 bg-yellow-400 text-black text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl font-bold mb-6">¿Listo para cambiar tu vida?</h2>
+      <p class="text-2xl mb-10">La primera clase es totalmente gratis</p>
+      <button onclick="alert('¡Gracias! En un caso real aquí iría un formulario o WhatsApp.')" 
+              class="bg-black text-white px-12 py-6 rounded-2xl text-2xl font-bold hover:bg-zinc-800 transition">
+        RESERVAR CLASE GRATIS
+      </button>
+    </div>
+  </section>
+
+  <footer class="bg-black py-10 text-center text-zinc-500">
+    <p>© 2026 PowerFit - Gimnasio Premium</p>
+  </footer>
+</body>
+</html>
