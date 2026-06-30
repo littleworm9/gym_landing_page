@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORGE GYM | Gimnasio Premium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600') center/cover no-repeat;
+    }
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- Hero -->
+  <section class="hero min-h-screen flex items-center relative">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-6xl md:text-7xl font-bold mb-6 tracking-tight">FORGE GYM</h1>
+      <p class="text-4xl md:text-5xl font-semibold text-yellow-400 mb-8">FORJA TU MEJOR VERSIÓN</p>
+      <p class="text-xl max-w-xl mx-auto mb-12 text-zinc-300">Entrenamiento de élite, coaches expertos y una comunidad que te impulsa.</p>
+      
+      <div class="flex flex-col sm:flex-row gap-5 justify-center">
+        <a href="#planes" class="bg-yellow-400 hover:bg-yellow-300 text-black px-10 py-5 rounded-2xl text-xl font-bold transition">
+          VER PLANES
+        </a>
+        <a href="#contacto" class="border-2 border-white hover:bg-white hover:text-black px-10 py-5 rounded-2xl text-xl font-bold transition">
+          PRUEBA GRATIS
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="py-24 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Resultados Reales</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="text-center card-hover bg-zinc-800 p-10 rounded-3xl transition">
+          <div class="text-6xl mb-6">💪</div>
+          <h3 class="text-2xl font-semibold mb-4">Entrenamiento Élite</h3>
+          <p class="text-zinc-400">Clases funcionales, pesas y cardio de alto nivel.</p>
+        </div>
+        <div class="text-center card-hover bg-zinc-800 p-10 rounded-3xl transition">
+          <div class="text-6xl mb-6">🥑</div>
+          <h3 class="text-2xl font-semibold mb-4">Nutrición Personalizada</h3>
+          <p class="text-zinc-400">Planes alimenticios adaptados a tus objetivos.</p>
+        </div>
+        <div class="text-center card-hover bg-zinc-800 p-10 rounded-3xl transition">
+          <div class="text-6xl mb-6">👥</div>
+          <h3 class="text-2xl font-semibold mb-4">Comunidad Fuerte</h3>
+          <p class="text-zinc-400">Motivación constante y ambiente inmejorable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes -->
+  <section id="planes" class="py-24 bg-black">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Elige tu Plan</h2>
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="text-2xl font-bold">Básico</h3>
+          <p class="text-5xl font-bold my-6">$49<span class="text-base font-normal text-zinc-400">/mes</span></p>
+          <ul class="space-y-3 mb-10 text-zinc-300">
+            <li>✓ Acceso ilimitado</li>
+            <li>✓ Clases grupales</li>
+            <li>✓ App de seguimiento</li>
+          </ul>
+          <button class="w-full py-4 border border-zinc-700 rounded-2xl hover:bg-zinc-800">Seleccionar</button>
+        </div>
+
+        <div class="bg-gradient-to-b from-yellow-400 to-amber-500 text-black p-8 rounded-3xl card-hover scale-105 shadow-2xl">
+          <div class="text-center mb-4">
+            <span class="bg-black text-yellow-400 px-5 py-1 rounded-full text-sm font-bold">MÁS VENDIDO</span>
+          </div>
+          <h3 class="text-3xl font-bold">Premium</h3>
+          <p class="text-6xl font-bold my-6">$89<span class="text-xl font-normal">/mes</span></p>
+          <ul class="space-y-3 mb-10">
+            <li>✓ Todo del plan Básico</li>
+            <li>✓ 4 sesiones con coach personal</li>
+            <li>✓ Plan nutricional</li>
+            <li>✓ Acceso 24 horas</li>
+          </ul>
+          <button class="w-full py-4 bg-black text-white rounded-2xl font-bold">Seleccionar Premium</button>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-3xl card-hover">
+          <h3 class="text-2xl font-bold">Elite</h3>
+          <p class="text-5xl font-bold my-6">$149<span class="text-base font-normal text-zinc-400">/mes</span></p>
+          <ul class="space-y-3 mb-10 text-zinc-300">
+            <li>✓ Todo ilimitado</li>
+            <li>✓ Coach personal ilimitado</li>
+            <li>✓ Fisioterapia incluida</li>
+            <li>✓ Acceso VIP + Locker</li>
+          </ul>
+          <button class="w-full py-4 border border-zinc-700 rounded-2xl hover:bg-zinc-800">Seleccionar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section id="contacto" class="py-28 bg-yellow-400 text-black text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl font-bold mb-6">La primera semana es gratis</h2>
+      <p class="text-2xl mb-10">Prueba Forge Gym sin compromiso</p>
+      <button onclick="alert('¡Genial! En un caso real aquí conectarías con WhatsApp o formulario')" 
+              class="bg-black text-white px-12 py-6 rounded-2xl text-2xl font-bold hover:bg-zinc-900 transition">
+        RESERVAR MI SEMANA GRATIS
+      </button>
+    </div>
+  </section>
+
+  <footer class="bg-black py-12 text-center text-zinc-500">
+    <p class="text-sm">© 2026 Forge Gym • Desarrollado por Xander para portafolio</p>
+  </footer>
+</body>
+</html>
